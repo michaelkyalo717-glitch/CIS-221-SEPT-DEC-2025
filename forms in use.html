@@ -1,0 +1,106 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Comprehensive HTML Form</title>
+</head>
+<body>
+  <h1>All HTML Form Controls</h1>
+  <form action="/submit" method="post" enctype="multipart/form-data">
+    
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Number Input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <!-- Time Input -->
+    <label for="appt">Appointment Time:</label>
+    <input type="time" id="appt" name="appt"><br><br>
+
+    <!-- Color Picker -->
+    <label for="favcolor">Favorite Color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br><br>
+
+    <!-- Range Slider -->
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100"><br><br>
+
+    <!-- Telephone Input -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <!-- URL Input -->
+    <label for="website">Website:</label>
+    <input type="url" id="website" name="website"><br><br>
+
+    <!-- Search Input -->
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search"><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label>
+    <input type="checkbox" id="design" name="interests" value="design">
+    <label for="design">Design</label><br><br>
+
+    <!-- Dropdown Select -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="kenya">Kenya</option>
+      <option value="uganda">Uganda</option>
+      <option value="tanzania">Tanzania</option>
+    </select><br><br>
+
+    <!-- Multiple Select -->
+    <label for="skills">Select Skills:</label>
+    <select id="skills" name="skills" multiple>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="js">JavaScript</option>
+    </select><br><br>
+
+    <!-- File Upload -->
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume"><br><br>
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="form_id" value="12345">
+
+    <!-- Textarea -->
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset">
+
+    <!-- Button -->
+    <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+
+  </form>
+</body>
+</html>
